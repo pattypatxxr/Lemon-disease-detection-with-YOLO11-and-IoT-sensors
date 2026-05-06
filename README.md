@@ -10,7 +10,7 @@
 - **MCU:** ESP32-C6
 - **Sensors:** DHT11 (temperature & humidity), LDR (light intensity), Webcam (AI inference)
 
-## 🤖 AI / ML Component
+##  AI / ML Component
  
 - **Model:** YOLO11n-cls (47 layers, 1.5M parameters, 3.2 GFLOPs)
 - **Framework:** Ultralytics + Roboflow preprocessing pipeline
@@ -62,7 +62,7 @@ const char *password = "YOUR_WIFI_PASSWORD";
 
 ---
  
-## 🧪 Testing & Validation
+##  Testing & Validation
  
 ### Wireshark Filters
  
@@ -72,6 +72,6 @@ tcp.port == 1883                            # Show MQTT port traffic
 mqtt.topic == "smartfarm/humidity"          # Filter by topic
 ```
 
-## ⚠️ Known Limitations
+##  Known Limitations
  
 - This project is a **prototype/concept** and not intended for large-scale real farm deployment
